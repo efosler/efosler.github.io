@@ -42,7 +42,7 @@ var currentstudents=[
   ["Shuaichen Chang","CSE","","","https://www.linkedin.com/in/shuaichen-chang-28b90790/",""],
   ["Chaitanya Kulkarni","CSE","Co-advisor; primary advisor Raghu Machiraju","","https://www.linkedin.com/in/chaitanya2334/",""],
   ["Jialin Li","Geography/CSE","MS advisor (Ph.D. Advisor: Ningchuan Xiao)","","https://www.linkedin.com/in/jialin-li-908058181/",""],
-  ["Peter Plantinga","CSE","","","https://www.linkedin.com/in/plantinga-peter/",""],
+  ["Peter Plantinga","CSE","","","https://www.linkedin.com/in/plantinga-peter/","https://scholar.google.com/citations?user=aBK72zwAAAAJ&hl=en&oi=ao"],
   ["Prashant Serai","CSE","","","https://www.linkedin.com/in/prashant-serai-28391618/","https://scholar.google.com/citations?user=ORJJGWoAAAAJ&hl=en&oi=ao"],
   ["Vishal Sunder","CSE","","","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""],
   ["Bharat Suri","CSE","","","https://www.linkedin.com/in/bsuri/",""]    

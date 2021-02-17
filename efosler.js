@@ -202,7 +202,7 @@ var confmap={
   "IEEE Transactions on Multimedia": ["JR", "Multimedia"],
   "Ohio State University (Distributor)": ["OT", "OSU"],
   "Speech Communication": ["JR","SpeCom"],
-  "Frontiers in Digital Health": ["JR","FDH"]
+  "Frontiers in Digital Health": ["JR","FDH"],
   "The Journal of the Acoustical Society of America": ["JR","JASA"]
 
 };

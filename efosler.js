@@ -47,7 +47,8 @@ var currentstudents=[
   ["Peter Plantinga","CSE","","","https://www.linkedin.com/in/plantinga-peter/","https://scholar.google.com/citations?user=aBK72zwAAAAJ&hl=en&oi=ao"],
   ["Prashant Serai","CSE","","","https://www.linkedin.com/in/prashant-serai-28391618/","https://scholar.google.com/citations?user=ORJJGWoAAAAJ&hl=en&oi=ao"],
   ["Vishal Sunder","CSE","","","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""],
-  ["Bharat Suri","CSE","","","https://www.linkedin.com/in/bsuri/",""]    
+  ["Bharat Suri","CSE","","","https://www.linkedin.com/in/bsuri/",""],
+  ["Lavanya Venkatasubramaniam","CSE","","","",""]    
 ]
 
 var postdocs=[
@@ -201,6 +202,7 @@ var confmap={
   "IEEE Transactions on Multimedia": ["JR", "Multimedia"],
   "Ohio State University (Distributor)": ["OT", "OSU"],
   "Speech Communication": ["JR","SpeCom"],
+  "Frontiers in Digital Health": ["JR","FDH"]
   "The Journal of the Acoustical Society of America": ["JR","JASA"]
 
 };

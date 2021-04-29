@@ -28,9 +28,11 @@ var phdstudents=[
   ["Yi Ma","CSE, August '15","","Software Engineer, Apple","https://www.linkedin.com/in/pegasusyi","https://scholar.google.com/citations?hl=en&user=OFl1NkcAAAAJ"],
   ["Jeremy Morris","CSE, June '10","","Assistant Professor of Practice, Ohio State","http://www.cse.ohio-state.edu/~morrijer",""],
   ["Denis Newman-Griffis","CSE, May '20","","Postdoctoral researcher, University of Pittsburgh","http://web.cse.ohio-state.edu/~griffisd","https://scholar.google.com/citations?hl=en&user=Ymkp0TYAAAAJ"],
-  ["Rohit Prabhavalkar","CSE, August '13","","Senior Research Scientist, Google","http://research.google.com/pubs/RohitPrabhavalkar.html","https://scholar.google.com/citations?hl=en&user=JgltxisAAAAJ"],
+  ["Peter Plantinga","CSE","May '21","","J.P. Morgan Chase", "https://www.linkedin.com/in/plantinga-peter/","https://scholar.google.com/citations?user=aBK72zwAAAAJ&hl=en&oi=ao"],
+  ["Rohit Prabhavalkar","CSE, August '13","","Research Scientist, Facebooks","https://www.linkedin.com/in/rohitprabhavalkar/","https://scholar.google.com/citations?hl=en&user=JgltxisAAAAJ"],
   ["Preethi Raghavan","CSE, April '14","Co-advised with Albert Lai","Research Staff Member, IBM Watson Research","http://researcher.watson.ibm.com/researcher/view.php?person=us-praghav","https://scholar.google.com/citations?hl=en&user=oPolPeMAAAAJ"],
   ["Anton Rytting","Linguistics, December '06","Co-advised with Chris Brew","Associate Research Scientist, Applied Research Lab for Intelligence &amp; Security, U. Maryland","http://www.casl.umd.edu/node/51",""],
+  ["Prashant Serai","CS, May '20","","Facebook","https://www.linkedin.com/in/prashant-serai-28391618/","https://scholar.google.com/citations?user=ORJJGWoAAAAJ&hl=en&oi=ao"],
   ["Chaitanya Shivade","CSE, May '16","Co-advised with Albert Lai","Applied Scientist, Amazon","https://www.linkedin.com/in/chaitanyashivade/","https://scholar.google.com/citations?user=7H0YYPIAAAAJ&hl=en&oi=ao"],
   ["Adam Stiff","CSE, May '20","","Infoscitex Corporation","https://www.linkedin.com/in/adam-stiff-6a134646/",""],
   ["Tim Weale","CSE, August '10","Co-advised with Chris Brew","Department of Defense","https://www.linkedin.com/in/timothyweale/",""],
@@ -42,12 +44,8 @@ var currentstudents=[
   ["Shuaichen Chang","CSE","","","https://www.linkedin.com/in/shuaichen-chang-28b90790/",""],
   ["Chaitanya Kulkarni","CSE","Co-advisor; primary advisor Raghu Machiraju","","https://www.linkedin.com/in/chaitanya2334/",""],
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/",""],
-  ["Jialin Li","Geography/CSE","MS advisor (Ph.D. Advisor: Ningchuan Xiao)","","https://www.linkedin.com/in/jialin-li-908058181/",""],
   ["David Palzer","CSE","","","https://www.linkedin.com/in/david-palzer-04397662/",""],
-  ["Peter Plantinga","CSE","","","https://www.linkedin.com/in/plantinga-peter/","https://scholar.google.com/citations?user=aBK72zwAAAAJ&hl=en&oi=ao"],
-  ["Prashant Serai","CSE","","","https://www.linkedin.com/in/prashant-serai-28391618/","https://scholar.google.com/citations?user=ORJJGWoAAAAJ&hl=en&oi=ao"],
   ["Vishal Sunder","CSE","","","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""],
-  ["Bharat Suri","CSE","","","https://www.linkedin.com/in/bsuri/",""],
   ["Lavanya Venkatasubramaniam","CSE","","","",""]    
 ]
 
@@ -60,13 +58,15 @@ var msbsstudents=[
   ["Meghan Day", "CSE MS May '17", "", "Google", "https://www.linkedin.com/in/meghan-day/", ""],
   ["Akshay Deshpande", "CSE MS August '13", "", "Soothsayer Analytics", "https://www.linkedin.com/in/akshaydesh", ""],
   ["Smrite Dua", "CSE MS May '15", "", "Cisco", "https://www.linkedin.com/in/smrite-dua-34514611", ""],
+  ["Jialin Li","CSE MS May '21","(completing Geography Ph.D., Advisor: Ningchuan Xiao)","","https://www.linkedin.com/in/jialin-li-908058181/",""],
   ["Jacob Mainzer", "CSE MS December '11", "", "SemanticBits", "https://www.linkedin.com/in/jacob-mainzer-4057a940", ""],
   ["Prateeti Mohapatra", "CSE, MS March '09", "", "IBM Research Lab", "http://www.linkedin.com/pub/prateeti-mohapatra/1a/b80/29", ""],
   ["Monica Rajamanohar", "ECE, MS August 05", "", "Heiler Software", "http://www.linkedin.com/pub/monica-rajamanohar/6/a0/95b", ""],
   ["Louis (Yuanlong) Shao", "CSE, MS May '14", "", "Two Sigma", "http://www.shaoyuanlong.com/",""],
   ["Darla Shockley", "CSE, MS March '10", "", "Leadfeeder", "https://www.linkedin.com/in/darlashockley", ""],
-  ["Ritu Singh", "CSE, MS August '12", "", "J. P. Morgan Chase", "", "https://www.linkedin.com/in/singh27"],
+  ["Ritu Singh", "CSE, MS August '12", "", "J. P. Morgan Chase",  "https://www.linkedin.com/in/singh27"],
   ["Qi Song", "CSE, MS May '20", "", "", "https://www.linkedin.com/in/qi-song-8197421a1/", ""],
+  ["Bharat Suri","CSE","MS May '21","","Salesforce","https://www.linkedin.com/in/bsuri/",""],
   ["Yu Wang", "CSE, MS March '07", "", "" ,"" , ""],
   ["Annatala Wolf",  "CSE BS honors '06", "", "Ohio State CSE Lecturer", "http://www.cse.ohio-state.edu/~wolfann", ""]
 ]
@@ -204,7 +204,6 @@ var confmap={
   "Speech Communication": ["JR","SpeCom"],
   "Frontiers in Digital Health": ["JR","FDH"],
   "The Journal of the Acoustical Society of America": ["JR","JASA"]
-
 };
 
 var updatebib=function(bibentry) {

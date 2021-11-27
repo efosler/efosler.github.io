@@ -204,7 +204,8 @@ var confmap={
   "Speech Communication": ["JR","SpeCom"],
   "Frontiers in Digital Health": ["JR","FDH"],
   "The Journal of the Acoustical Society of America": ["JR","JASA"],
-  "ACL-IJCNLP": ["CF","ACL"]
+  "ACL-IJCNLP": ["CF","ACL"],
+  "North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Demonstrations": ["CF", "NAACL Demos"]
 };
 
 var updatebib=function(bibentry) {

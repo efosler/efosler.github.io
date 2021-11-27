@@ -90,8 +90,9 @@ cardify(msbsstudents,"#msbsstudents",'Link')
 var classes=[
   ["Artificial Intelligence I: Basic Techniques", "CSE 3521", "Last taught: Spring 2009","", "http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-3521.pdf", ""],
   ["Survey of Artificial Intelligence II: Advanced Techniques", "CSE 5522", "Last taught: Autumn 2019","", "http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5522.pdf",""],
-  ["Foundations of Speech and Language Processing", "CSE 5525", "Last taught: Spring 2018", "", "http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5525.pdf","" ],
-  ["Introduction to Neural Networks", "CSE 5526","Last taught: Spring 2020","","http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5526.pdf",""],
+  ["Artificial Intelligence", "CSE 6521", "Last taught: Autumn 2020","", "http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-6521.pdf",""],
+  ["Foundations of Speech and Language Processing", "CSE 5525", "Last taught: Spring 2021", "", "http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5525.pdf","" ],
+  ["Introduction to Neural Networks", "CSE 5526","Last taught: Spring 2022","","http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5526.pdf",""],
   ["Intermediate Studies in Artificial Intelligence (Seminar)", "CSE 5539","Last taught: Autum 2017", "", "http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5539.pdf",""],
   ["Capstone Design: Knowledge-Based Systems","CSE 5914","Last taught: Spring 2016","","http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5914.pdf",""]
 ]  
@@ -102,8 +103,8 @@ var resources=[
   ["Pytorch Intro for Neural Networks", "Google Colab/Jyupter Notebook", "CSE 5526", '<img class="card-img" src="img/pytorchnncolab.png"></img>', "https://colab.research.google.com/drive/1Z-fJwfiABcsbMuv-mX51wR_6D1QFKaYu?usp=sharing", ""],
   ["K-Means demo", "Google Colab/Jyupter Notebook","CSE 5526",'<img class="card-img" src="img/kmeanscolab.png"></img>', "https://colab.research.google.com/drive/1gOWOnMuatux-Q_v3WD1tFCK_L5t9Riax?usp=sharing",""],
   ["Function fitting", "Google Colab/Jyupter Notebook", "CSE 5526", '<img class="card-img" src="img/functionfitcolab.png"></img>', "https://colab.research.google.com/drive/1lEPTXSHrdxjtBSEaT1GozCrnxzpuG5NE?usp=sharing", ""],
-  ["Get to know you clustering", "GoogleColab/Jyupter Notebook", "CSE 5522",'A method for forming groups by clustering answers based on a survey.  Mostly used to begin a discussion of fairness and bias (and bad algorithms) in AI.',"https://colab.research.google.com/drive/1nTGLKxr7Q53OmGyno2NJTAFoawKnC9Cz?usp=sharing",""],
-  ["Naive Bayes Sentiment Analysis","GoogleColab/Jyupter Notebook","CSE 5522",'<img class="card-img" src="img/nb.png"></img>Credit to Amir Asiaee for CSE 5522.',"https://colab.research.google.com/drive/1YL034mgUUVp5-hErl32Ac2CExhRvpxX8?usp=sharing",""],
+  ["Get to know you clustering", "GoogleColab/Jyupter Notebook", "CSE 5522/6521",'A method for forming groups by clustering answers based on a survey.  Mostly used to begin a discussion of fairness and bias (and bad algorithms) in AI.',"https://colab.research.google.com/drive/1nTGLKxr7Q53OmGyno2NJTAFoawKnC9Cz?usp=sharing",""],
+  ["Naive Bayes Sentiment Analysis","GoogleColab/Jyupter Notebook","CSE 5522/6521",'<img class="card-img" src="img/nb.png"></img>Credit to Amir Asiaee for CSE 5522.',"https://colab.research.google.com/drive/1YL034mgUUVp5-hErl32Ac2CExhRvpxX8?usp=sharing",""],
   ["Percepton Learning Rule","MP4 Video","CSE 5522/5526",
     '<p>This demo shows the PLR learning a 2-dimensional hyperplane between two separable classes. The thing to note is that at convergence, the red line (hypothesis) does not match the true function (blue dashed line) -- the end hypothesis will depend on the training data.</p> <img src="img/plrmovie.png"></img>', 
     'movies/plr.mp4', ''],

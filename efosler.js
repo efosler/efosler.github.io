@@ -203,7 +203,8 @@ var confmap={
   "Ohio State University (Distributor)": ["OT", "OSU"],
   "Speech Communication": ["JR","SpeCom"],
   "Frontiers in Digital Health": ["JR","FDH"],
-  "The Journal of the Acoustical Society of America": ["JR","JASA"]
+  "The Journal of the Acoustical Society of America": ["JR","JASA"],
+  "ACL-IJCNLP": ["CF","ACL"]
 };
 
 var updatebib=function(bibentry) {

@@ -43,6 +43,7 @@ var phdstudents=[
 var currentstudents=[
   ["Ahmad Aljanaideh","CSE","Co-advised with Marie Catherine de Marneffe","","https://www.linkedin.com/in/ahmad-aljanaideh-60a714126/",""],
   ["Shuaichen Chang","CSE","","","https://www.linkedin.com/in/shuaichen-chang-28b90790/",""],
+  ["Erika Goetz","CSE","","","https://www.linkedin.com/in/erikagoetz/",""],
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/",""],
   ["David Palzer","CSE","","","https://www.linkedin.com/in/david-palzer-04397662/",""],
   ["Vishal Sunder","CSE","","","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""],

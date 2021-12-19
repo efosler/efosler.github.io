@@ -18,6 +18,7 @@ $( window ).on( 'load', sethighlight )
 
 
 var phdstudents=[
+  ["Ahmad Aljanaideh","CSE, December '21","Co-advised with Marie Catherine de Marneffe","","https://www.linkedin.com/in/ahmad-aljanaideh-60a714126/",""],
   ["Deblin Bagchi","CSE, December '19","","3M","https://www.linkedin.com/in/deblin-bagchi-abbb5124/","https://scholar.google.com/citations?user=LAIkmDUAAAAJ&hl=en&oi=ao"],
   ["Manirupa Das","CSE, October '19","Co-advised with Rajiv Ramnath","Amazon Search","https://www.linkedin.com/in/manirupa-das-21a3301/","https://scholar.google.com/citations?user=xeGA6i4AAAAJ&hl=en&oi=ao"],
   ["William Hartmann","CSE, June '12","","Raytheon BBN Technnologies","https://www.linkedin.com/in/william-hartmann-87302696","https://scholar.google.com/citations?hl=en&user=CH32p6AAAAAJ"],
@@ -41,7 +42,6 @@ var phdstudents=[
 ];
 
 var currentstudents=[
-  ["Ahmad Aljanaideh","CSE","Co-advised with Marie Catherine de Marneffe","","https://www.linkedin.com/in/ahmad-aljanaideh-60a714126/",""],
   ["Shuaichen Chang","CSE","","","https://www.linkedin.com/in/shuaichen-chang-28b90790/",""],
   ["Erika Goetz","CSE","","","https://www.linkedin.com/in/erikagoetz/",""],
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/",""],
@@ -131,7 +131,7 @@ var funstuff=[
     '<p>As a result of the above work, Danielle and I wrote a blog article for Musicology Now.</p>',
     'http://www.musicologynow.org/2015/06/rethinking-historical-data-foray-into.html',''],
   ["Music on the Move Maps","","",
-    "<p>The cool thing about having an awesome spouse who writes books about music and globalization is that you keep getting changes to play with maps.  I was glad that she asked me to work on the maps for <i>Music on the Move</i>, an open access book available (soon) at the University of Michigan Press.  I've open sourced the maps (which themselves built on various sources).</p>"+
+    "<p>The cool thing about having an awesome spouse who writes books about music and globalization is that you keep getting chances to play with maps.  I was glad that she asked me to work on the maps for <i>Music on the Move</i>, an open access book available (soon) at the University of Michigan Press.  I've open sourced the maps (which themselves built on various sources).</p>"+
     '<img src="img/motmmaps.jpg"></img>',
     "http://musiconthemove.org","https://github.com/efosler/MusicOnTheMove"],
   ["Scouting","","","<p>I volunteer with the Boy Scouts of America. And I like coffee.</p><img src='img/coffee.jpg'></img>",'',''],

@@ -165,6 +165,7 @@ var confmap={
   "ESCA Tutorial and Research Workshop on Modeling Pronunciation Variation for Automatic Speech Recognition": ["WK","ITRW"],
   "International Conference on Acoustics, Speech, and Signal Processing": ["CF","ICASSP"],
   "International Conference on Acoustics, Speech and Signal Processing": ["CF","ICASSP"],
+  "International Conference on Acoustics, Speech and Signal Processing (ICASSP)": ["CF","ICASSP"],
   "International Conference on Computational Linguistics": ["CF","COLING"],
   "International Congress of Phonetic Sciences": ["CF","ICPHS"],
   "International Speech Communication Association (ICSA) Tutorial and Research Workshop on Speech Recognition and Intrinsic Variation": ["WK","ITRW"],
@@ -195,6 +196,7 @@ var confmap={
   "Computer Speech and Language": ["JR", "CSL"],
   "Journal of Biomedical Informatics": ["JR", "JBI"],
   "Medical teacher": ["JR","MT"],
+  "Medical Teacher": ["JR","MT"],
   "IEEE Signal Processing Magazine": ["JR","SPM"],
   "IEEE/ACM Transactions on Audio, Speech, and Language Processing": ["JR","TASLP"],
   "IEEE Transactions on Audio, Speech, and Language Processing": ["JR","TASLP"],
@@ -209,6 +211,9 @@ var confmap={
   "Frontiers in Digital Health": ["JR","FDH"],
   "The Journal of the Acoustical Society of America": ["JR","JASA"],
   "ACL-IJCNLP": ["CF","ACL"],
+  "arXiv preprint": ["CF","ArXiv"],
+  "Table Representation Learning Workshop, NeurIPS Workshops": ["CF","NeurIPS Workshops"],
+  "Natural Language Engineering": ["JR","NLE"],
   "North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Demonstrations": ["CF", "NAACL Demos"]
 };
 

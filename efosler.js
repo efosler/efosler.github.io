@@ -42,12 +42,13 @@ var phdstudents=[
 ];
 
 var currentstudents=[
+  ["Pulkit Arya","CSE","Co-advised with Mike White","","https://www.linkedin.com/in/pulkit-arya-037/"],
   ["Shuaichen Chang","CSE","","","https://www.linkedin.com/in/shuaichen-chang-28b90790/",""],
   ["Erika Goetz","CSE","","","https://www.linkedin.com/in/erikagoetz/",""],
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/",""],
+  ["Jaylen Jones","CSE","Co-advised with Huan Sun","","https://www.linkedin.com/in/jaylen--jones/"],
   ["David Palzer","CSE","","","https://www.linkedin.com/in/david-palzer-04397662/",""],
-  ["Vishal Sunder","CSE","","","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""],
-  ["Lavanya Venkatasubramaniam","CSE","","","",""]    
+  ["Vishal Sunder","CSE","","","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""]    
 ]
 
 var postdocs=[
@@ -69,6 +70,7 @@ var msbsstudents=[
   ["Qi Song", "CSE, MS May '20", "", "Ph.D. Student, Instutue of Software, Chinese Academy of Science", "https://www.linkedin.com/in/qi-song-8197421a1/", ""],
   ["Bharat Suri","CSE","MS May '21","","Salesforce","https://www.linkedin.com/in/bsuri/",""],
   ["Yu Wang", "CSE, MS March '07", "", "" ,"" , ""],
+  ["Lavanya Venkatasubramaniam","CSE","MS December '22","","Microsoft","https://www.linkedin.com/in/lavanya-vvs/"], 
   ["Annatala Wolf",  "CSE BS honors '06", "", "Ohio State CSE Lecturer", "http://www.cse.ohio-state.edu/~wolfann", ""]
 ]
 

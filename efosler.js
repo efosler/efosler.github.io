@@ -18,35 +18,35 @@ $( window ).on( 'load', sethighlight )
 
 
 var phdstudents=[
-  ["Ahmad Aljanaideh","CSE, December '21","Co-advised with Marie Catherine de Marneffe","","https://www.linkedin.com/in/ahmad-aljanaideh-60a714126/",""],
+  ["Ahmad Aljanaideh","CSE, December '21","Co-advised with Marie Catherine de Marneffe","Assistant Professor, Bentley University","https://www.linkedin.com/in/ahmad-aljanaideh-60a714126/",""],
   ["Deblin Bagchi","CSE, December '19","","3M","https://www.linkedin.com/in/deblin-bagchi-abbb5124/","https://scholar.google.com/citations?user=LAIkmDUAAAAJ&hl=en&oi=ao"],
-  ["Manirupa Das","CSE, October '19","Co-advised with Rajiv Ramnath","Amazon Search","https://www.linkedin.com/in/manirupa-das-21a3301/","https://scholar.google.com/citations?user=xeGA6i4AAAAJ&hl=en&oi=ao"],
-  ["William Hartmann","CSE, June '12","","Raytheon BBN Technnologies","https://www.linkedin.com/in/william-hartmann-87302696","https://scholar.google.com/citations?hl=en&user=CH32p6AAAAAJ"],
-  ["Yanzhang (Ryan) He","CSE, May '15","","Senior Software Engineer, Google","https://www.linkedin.com/in/yanzhang-he-1072a211","https://scholar.google.com/citations?hl=en&user=2JH-fJYAAAAJ"],
-  ["Ilana Heintz","Linguistics, June '10","Co-advised with Chris Brew","Senior Scientist and Deputy Business Unit Manager, Raytheon BBN Technologies","https://www.linkedin.com/in/ilana-heintz-50a32b2/",""],
-  ["Preethi Jyothi","CSE, August '13","","Assistant Professor, IIT Bombay","https://www.cse.iitb.ac.in/~pjyothi/","https://scholar.google.com/citations?user=QN_uhu8AAAAJ&hl=en&oi=ao"],
-  ["Joo Kyung Kim","CSE, August '17","","Applied Scientist, Amazon Alexa","https://supakjk.github.io/","https://scholar.google.com/citations?hl=en&user=SeRGQv4AAAAJ"],
-  ["Chaitanya Kulkarni","CSE, December '21","Co-advisor; primary advisor Raghu Machiraju","","https://www.linkedin.com/in/chaitanya2334/","https://scholar.google.com/citations?user=T6mf1-oAAAAJ&hl=en&oi=ao"],
-  ["Yi Ma","CSE, August '15","","Software Engineer, Apple","https://www.linkedin.com/in/pegasusyi","https://scholar.google.com/citations?hl=en&user=OFl1NkcAAAAJ"],
+  ["Manirupa Das","CSE, October '19","Co-advised with Rajiv Ramnath","[startup]","https://www.linkedin.com/in/manirupa-das-21a3301/","https://scholar.google.com/citations?user=xeGA6i4AAAAJ&hl=en&oi=ao"],
+  ["William Hartmann","CSE, June '12","","Senior Scientist, Raytheon BBN Technnologies","https://www.linkedin.com/in/william-hartmann-87302696","https://scholar.google.com/citations?hl=en&user=CH32p6AAAAAJ"],
+  ["Yanzhang (Ryan) He","CSE, May '15","","Senior Staff Software Engineer, Google","https://www.linkedin.com/in/yanzhang-he-1072a211","https://scholar.google.com/citations?hl=en&user=2JH-fJYAAAAJ"],
+  ["Ilana Heintz","Linguistics, June '10","Co-advised with Chris Brew","Strategist, Synoptic Engineering","https://www.linkedin.com/in/ilana-heintz-50a32b2/",""],
+  ["Preethi Jyothi","CSE, August '13","","Associate Professor, IIT Bombay","https://www.cse.iitb.ac.in/~pjyothi/","https://scholar.google.com/citations?user=QN_uhu8AAAAJ&hl=en&oi=ao"],
+  ["Joo Kyung Kim","CSE, August '17","","Senior Applied Scientist, Amazon Alexa","https://supakjk.github.io/","https://scholar.google.com/citations?hl=en&user=SeRGQv4AAAAJ"],
+  ["Chaitanya Kulkarni","CSE, December '21","Co-advisor; primary advisor Raghu Machiraju","Applied Researcher, eBay","https://www.linkedin.com/in/chaitanya2334/","https://scholar.google.com/citations?user=T6mf1-oAAAAJ&hl=en&oi=ao"],
+  ["Yi Ma","CSE, August '15","","Software Engineer, Apple","https://www.linkedin.com/in/apmhbnms/","https://scholar.google.com/citations?hl=en&user=OFl1NkcAAAAJ"],
   ["Jeremy Morris","CSE, June '10","","Assistant Professor of Practice, Ohio State","http://www.cse.ohio-state.edu/~morrijer",""],
-  ["Denis Newman-Griffis","CSE, May '20","","Postdoctoral researcher, University of Pittsburgh","http://web.cse.ohio-state.edu/~griffisd","https://scholar.google.com/citations?hl=en&user=Ymkp0TYAAAAJ"],
-  ["Peter Plantinga","CSE May '21","","J.P. Morgan Chase", "https://www.linkedin.com/in/plantinga-peter/","https://scholar.google.com/citations?user=aBK72zwAAAAJ&hl=en&oi=ao"],
+  ["Denis Newman-Griffis","CSE, May '20","","Lecturer (Assistant Professor), University of Sheffield","https://www.newman-griffis.org","https://scholar.google.com/citations?hl=en&user=Ymkp0TYAAAAJ"],
+  ["Peter Plantinga","CSE May '21","","Applied AI ML Associate, J.P. Morgan Chase", "https://www.linkedin.com/in/plantinga-peter/","https://scholar.google.com/citations?user=aBK72zwAAAAJ&hl=en&oi=ao"],
   ["Rohit Prabhavalkar","CSE, August '13","","Research Scientist, Google","https://www.linkedin.com/in/rohitprabhavalkar/","https://scholar.google.com/citations?hl=en&user=JgltxisAAAAJ"],
-  ["Preethi Raghavan","CSE, April '14","Co-advised with Albert Lai","Vice President, Fidelity Investments","https://www.linkedin.com/in/preethi-raghavan-26669a2","https://scholar.google.com/citations?hl=en&user=oPolPeMAAAAJ"],
-  ["Anton Rytting","Linguistics, December '06","Co-advised with Chris Brew","Associate Research Scientist, Applied Research Lab for Intelligence &amp; Security, U. Maryland","http://www.casl.umd.edu/node/51",""],
-  ["Prashant Serai","CSE, May '20","","Facebook","https://www.linkedin.com/in/prashant-serai-28391618/","https://scholar.google.com/citations?user=ORJJGWoAAAAJ&hl=en&oi=ao"],
-  ["Chaitanya Shivade","CSE, May '16","Co-advised with Albert Lai","Applied Scientist, Amazon","https://www.linkedin.com/in/chaitanyashivade/","https://scholar.google.com/citations?user=7H0YYPIAAAAJ&hl=en&oi=ao"],
-  ["Adam Stiff","CSE, May '20","","Infoscitex Corporation","https://www.linkedin.com/in/adam-stiff-6a134646/",""],
-  ["Tim Weale","CSE, August '10","Co-advised with Chris Brew","Department of Defense","https://www.linkedin.com/in/timothyweale/",""],
-  ["Sirui Xu","CSE, August '18","","Research Scientist, ObEN","https://www.linkedin.com/in/sirui-xu-91a02622/",""]
+  ["Preethi Raghavan","CSE, April '14","Co-advised with Albert Lai","Vice President, Data Science Practice Lead, Fidelity Investments","https://www.linkedin.com/in/preethi-raghavan-26669a2","https://scholar.google.com/citations?hl=en&user=oPolPeMAAAAJ"],
+  ["Anton Rytting","Linguistics, December '06","Co-advised with Chris Brew","Associate Research Scientist, Applied Research Lab for Intelligence &amp; Security, U. Maryland","https://www.arlis.umd.edu/about-arlis/our-people/c-anton-rytting-phd",""],
+  ["Prashant Serai","CSE, May '20","","Senior Research Scientist, Meta","https://www.linkedin.com/in/prashant-serai-28391618/","https://scholar.google.com/citations?user=ORJJGWoAAAAJ&hl=en&oi=ao"],
+  ["Chaitanya Shivade","CSE, May '16","Co-advised with Albert Lai","Senior Applied Scientist, Amazon","https://www.linkedin.com/in/cshivade/","https://scholar.google.com/citations?user=7H0YYPIAAAAJ&hl=en&oi=ao"],
+  ["Adam Stiff","CSE, May '20","","NLP Scientist (Dialogue), Infoscitex Corporation","https://www.linkedin.com/in/adam-stiff-6a134646/",""],
+  ["Tim Weale","CSE, August '10","Co-advised with Chris Brew","Technical Manager, Department of Defense","https://www.linkedin.com/in/timothyweale/",""],
+  ["Sirui Xu","CSE, August '18","","Senior Research Scientist II, PAII Research Lab","https://www.linkedin.com/in/sirui-xu-91a02622/",""]
 ];
 
 var currentstudents=[
-  ["Pulkit Arya","CSE","Co-advised with Mike White","","https://www.linkedin.com/in/pulkit-arya-037/"],
   ["Shuaichen Chang","CSE","","","https://www.linkedin.com/in/shuaichen-chang-28b90790/",""],
   ["Erika Goetz","CSE","","","https://www.linkedin.com/in/erikagoetz/",""],
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/",""],
   ["Jaylen Jones","CSE","Co-advised with Huan Sun","","https://www.linkedin.com/in/jaylen--jones/"],
+  ["Beulah Karrolla","CSE","","","https://www.linkedin.com/in/beulah-karrolla/"],
   ["David Palzer","CSE","","","https://www.linkedin.com/in/david-palzer-04397662/",""],
   ["Vishal Sunder","CSE","","","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""]    
 ]
@@ -56,6 +56,7 @@ var postdocs=[
 ]
 
 var msbsstudents=[
+  ["Pulkit Arya","CSE MS May '23","Co-advised with Mike White","","https://www.linkedin.com/in/pulkit-arya-037/"],
   ["Adriane Boyd", "CSE MS June '08", "(completed Linguistics Ph.D. December '11 on a different topic)","","http://www.sfs.uni-tuebingen.de/~adriane/", ""],
   ["Meghan Day", "CSE MS May '17", "", "Google", "https://www.linkedin.com/in/meghan-day/", ""],
   ["Akshay Deshpande", "CSE MS August '13", "", "Soothsayer Analytics", "https://www.linkedin.com/in/akshaydesh", ""],
@@ -96,7 +97,7 @@ var classes=[
   ["Artificial Intelligence", "CSE 6521", "Last taught: Autumn 2020","", "http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-6521.pdf",""],
   ["Foundations of Speech and Language Processing", "CSE 5525", "Last taught: Spring 2021", "", "http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5525.pdf","" ],
   ["Introduction to Neural Networks", "CSE 5526","Last taught: Spring 2022","","http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5526.pdf",""],
-  ["Intermediate Studies in Artificial Intelligence (Seminar)", "CSE 5539","Last taught: Autum 2017", "", "http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5539.pdf",""],
+  ["Intermediate Studies in Artificial Intelligence (Seminar)", "CSE 5539","Last taught: Spring 2023", "", "http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5539.pdf",""],
   ["Capstone Design: Knowledge-Based Systems","CSE 5914","Last taught: Spring 2016","","http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-5914.pdf",""]
 ]  
 

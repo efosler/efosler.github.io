@@ -20,6 +20,7 @@ $( window ).on( 'load', sethighlight )
 var phdstudents=[
   ["Ahmad Aljanaideh","CSE, December '21","Co-advised with Marie Catherine de Marneffe","Assistant Professor, Bentley University","https://www.linkedin.com/in/ahmad-aljanaideh-60a714126/",""],
   ["Deblin Bagchi","CSE, December '19","","3M","https://www.linkedin.com/in/deblin-bagchi-abbb5124/","https://scholar.google.com/citations?user=LAIkmDUAAAAJ&hl=en&oi=ao"],
+  ["Shuaichen Chang","CSE, August '23","","Amazon AI","https://www.linkedin.com/in/shuaichen-chang-28b90790/",""],
   ["Manirupa Das","CSE, October '19","Co-advised with Rajiv Ramnath","[startup]","https://www.linkedin.com/in/manirupa-das-21a3301/","https://scholar.google.com/citations?user=xeGA6i4AAAAJ&hl=en&oi=ao"],
   ["William Hartmann","CSE, June '12","","Senior Scientist, Raytheon BBN Technnologies","https://www.linkedin.com/in/william-hartmann-87302696","https://scholar.google.com/citations?hl=en&user=CH32p6AAAAAJ"],
   ["Yanzhang (Ryan) He","CSE, May '15","","Senior Staff Software Engineer, Google","https://www.linkedin.com/in/yanzhang-he-1072a211","https://scholar.google.com/citations?hl=en&user=2JH-fJYAAAAJ"],
@@ -42,7 +43,6 @@ var phdstudents=[
 ];
 
 var currentstudents=[
-  ["Shuaichen Chang","CSE","","","https://www.linkedin.com/in/shuaichen-chang-28b90790/",""],
   ["Erika Goetz","CSE","","","https://www.linkedin.com/in/erikagoetz/",""],
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/",""],
   ["Jaylen Jones","CSE","Co-advised with Huan Sun","","https://www.linkedin.com/in/jaylen--jones/"],

@@ -48,7 +48,7 @@ var currentstudents=[
   ["Jaylen Jones","CSE","Co-advised with Huan Sun","","https://www.linkedin.com/in/jaylen--jones/"],
   ["Beulah Karrolla","CSE","","","https://www.linkedin.com/in/beulah-karrolla/"],
   ["David Palzer","CSE","","","https://www.linkedin.com/in/david-palzer-04397662/",""],
-  ["Tony Ramierez","CSE","","","https://www.linkedin.com/in/tony-p-ramirez/,""],
+  ["Tony Ramierez","CSE","","","https://www.linkedin.com/in/tony-p-ramirez/",""],
   ["Vishal Sunder","CSE","","","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""]    
 ]
 

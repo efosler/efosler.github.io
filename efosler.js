@@ -158,6 +158,7 @@ var confmap={
   "DARPA Broadcast News Workshop": ["WK","DARPA"],
   "Empirical Methods in Natural Language Processing": ["CF","EMNLP"],
   "Empirical Methods in Natural Language Processing (System Demonstrations)": ["CF","EMNLP"],
+  "Findings of EMNLP": ["CF","EMNLP Findings"],
   "Extra-Propositional Aspects of Meaning (ExProM) in Computational Linguistics Workshop": ["WK","ExProM"],
   "European Conference on Speech Communication and Technology": ["CF","Eurospeech"],
   "International Conference on Spoken Language Processing": ["CF","ICSLP"],

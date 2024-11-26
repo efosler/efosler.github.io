@@ -46,9 +46,7 @@ var currentstudents=[
   ["Erika Goetz","CSE","","","https://www.linkedin.com/in/erikagoetz/",""],
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/",""],
   ["Jaylen Jones","CSE","Co-advised with Huan Sun","","https://www.linkedin.com/in/jaylen--jones/"],
-  ["Beulah Karrolla","CSE","","","https://www.linkedin.com/in/beulah-karrolla/"],
   ["David Palzer","CSE","","","https://www.linkedin.com/in/david-palzer-04397662/",""],
-  ["Tony Ramierez","CSE","","","https://www.linkedin.com/in/tony-p-ramirez/",""],
   ["Vishal Sunder","CSE","","","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""]    
 ]
 
@@ -62,10 +60,12 @@ var msbsstudents=[
   ["Meghan Day", "CSE MS May '17", "", "Google", "https://www.linkedin.com/in/meghan-day/", ""],
   ["Akshay Deshpande", "CSE MS August '13", "", "Soothsayer Analytics", "https://www.linkedin.com/in/akshaydesh", ""],
   ["Smrite Dua", "CSE MS May '15", "", "Cisco", "https://www.linkedin.com/in/smrite-dua", ""],
+  ["Beulah Karrolla","CSE May '24","","Amazon","https://www.linkedin.com/in/beulah-karrolla/"],
   ["Jialin Li","CSE MS May '21","(completing Geography Ph.D., Advisor: Ningchuan Xiao)","","https://www.linkedin.com/in/jialin-li-908058181/",""],
   ["Jacob Mainzer", "CSE MS December '11", "", "", "https://www.linkedin.com/in/jacob-mainzer-4057a940", ""],
   ["Prateeti Mohapatra", "CSE, MS March '09", "", "IBM Research Lab", "http://www.linkedin.com/pub/prateeti-mohapatra/1a/b80/29", ""],
-  ["Monica Rajamanohar", "ECE, MS August 05", "", "Heiler Software", "http://www.linkedin.com/pub/monica-rajamanohar/6/a0/95b", ""],
+  ["Monica Rajamanohar", "ECE, MS August '05", "", "Heiler Software", "http://www.linkedin.com/pub/monica-rajamanohar/6/a0/95b", ""],
+  ["Tony Ramierez","CSE, MS May '24","","","https://www.linkedin.com/in/tony-p-ramirez/",""],
   ["Louis (Yuanlong) Shao", "CSE, MS May '14", "", "Two Sigma", "https://www.linkedin.com/in/louis-yuanlong-shao-35179b15/",""],
   ["Darla Shockley", "CSE, MS March '10", "", "Dataquest.io", "https://www.linkedin.com/in/darlashockley", ""],
   ["Ritu Singh", "CSE, MS August '12", "", "J. P. Morgan Chase",  "https://www.linkedin.com/in/singh27"],

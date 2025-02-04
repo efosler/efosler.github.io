@@ -18,10 +18,10 @@ $( window ).on( 'load', sethighlight )
 
 
 var phdstudents=[
-  ["Ahmad Aljanaideh","CSE, December '21","Co-advised with Marie Catherine de Marneffe","Assistant Professor, Bentley University","https://www.linkedin.com/in/ahmad-aljanaideh-60a714126/",""],
-  ["Deblin Bagchi","CSE, December '19","","3M","https://www.linkedin.com/in/deblin-bagchi-abbb5124/","https://scholar.google.com/citations?user=LAIkmDUAAAAJ&hl=en&oi=ao"],
-  ["Shuaichen Chang","CSE, August '23","","Amazon AI","https://www.linkedin.com/in/shuaichen-chang-28b90790/",""],
-  ["Manirupa Das","CSE, October '19","Co-advised with Rajiv Ramnath","[startup]","https://www.linkedin.com/in/manirupa-das-21a3301/","https://scholar.google.com/citations?user=xeGA6i4AAAAJ&hl=en&oi=ao"],
+  ["Ahmad Aljanaideh","CSE, December '21","Co-advised with Marie Catherine de Marneffe","Assistant Professor, Bentley University","https://www.linkedin.com/in/ahmad-aljanaideh-60a714126/","https://scholar.google.com/citations?user=puwSemMAAAAJ&hl=en&oi=ao"],
+  ["Deblin Bagchi","CSE, December '19","","Speech Scientist, 3M","https://www.linkedin.com/in/deblin-bagchi-abbb5124/","https://scholar.google.com/citations?user=LAIkmDUAAAAJ&hl=en&oi=ao"],
+  ["Shuaichen Chang","CSE, August '23","","Applied Scientist, Amazon AWS AI","https://www.linkedin.com/in/shuaichen-chang-28b90790/","https://scholar.google.com/citations?user=enrSEP4AAAAJ&hl=en&oi=ao"],
+  ["Manirupa Das","CSE, October '19","Co-advised with Rajiv Ramnath","Senior Data Scientist, Home Depot","https://www.linkedin.com/in/manirupa-das-21a3301/","https://scholar.google.com/citations?user=xeGA6i4AAAAJ&hl=en&oi=ao"],
   ["William Hartmann","CSE, June '12","","Senior Scientist, Raytheon BBN Technnologies","https://www.linkedin.com/in/william-hartmann-87302696","https://scholar.google.com/citations?hl=en&user=CH32p6AAAAAJ"],
   ["Yanzhang (Ryan) He","CSE, May '15","","Senior Staff Software Engineer, Google","https://www.linkedin.com/in/yanzhang-he-1072a211","https://scholar.google.com/citations?hl=en&user=2JH-fJYAAAAJ"],
   ["Ilana Heintz","Linguistics, June '10","Co-advised with Chris Brew","Strategist, Synoptic Engineering","https://www.linkedin.com/in/ilana-heintz-50a32b2/",""],
@@ -34,7 +34,7 @@ var phdstudents=[
   ["Peter Plantinga","CSE May '21","","Applied AI ML Associate, J.P. Morgan Chase", "https://www.linkedin.com/in/plantinga-peter/","https://scholar.google.com/citations?user=aBK72zwAAAAJ&hl=en&oi=ao"],
   ["Rohit Prabhavalkar","CSE, August '13","","Research Scientist, Google","https://www.linkedin.com/in/rohitprabhavalkar/","https://scholar.google.com/citations?hl=en&user=JgltxisAAAAJ"],
   ["Preethi Raghavan","CSE, April '14","Co-advised with Albert Lai","Vice President, Data Science Practice Lead, Fidelity Investments","https://www.linkedin.com/in/preethi-raghavan-26669a2","https://scholar.google.com/citations?hl=en&user=oPolPeMAAAAJ"],
-  ["Anton Rytting","Linguistics, December '06","Co-advised with Chris Brew","Associate Research Scientist, Applied Research Lab for Intelligence &amp; Security, U. Maryland","https://www.arlis.umd.edu/about-arlis/our-people/c-anton-rytting-phd",""],
+  ["Anton Rytting","Linguistics, December '06","Co-advised with Chris Brew","Associate Research Scientist, Applied Research Lab for Intelligence &amp; Security, U. Maryland","https://www.arlis.umd.edu/about-arlis/our-people/c-anton-rytting-phd","https://scholar.google.com/citations?hl=en&user=iBiZjx0AAAAJ"],
   ["Prashant Serai","CSE, May '20","","Senior Research Scientist, Meta","https://www.linkedin.com/in/prashant-serai-28391618/","https://scholar.google.com/citations?user=ORJJGWoAAAAJ&hl=en&oi=ao"],
   ["Chaitanya Shivade","CSE, May '16","Co-advised with Albert Lai","Senior Applied Scientist, Amazon","https://www.linkedin.com/in/cshivade/","https://scholar.google.com/citations?user=7H0YYPIAAAAJ&hl=en&oi=ao"],
   ["Adam Stiff","CSE, May '20","","NLP Scientist (Dialogue), Infoscitex Corporation","https://www.linkedin.com/in/adam-stiff-6a134646/",""],
@@ -46,7 +46,6 @@ var currentstudents=[
   ["Erika Goetz","CSE","","","https://www.linkedin.com/in/erikagoetz/",""],
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/",""],
   ["Jaylen Jones","CSE","Co-advised with Huan Sun","","https://www.linkedin.com/in/jaylen--jones/"],
-  ["Beulah Karrolla","CSE","","","https://www.linkedin.com/in/beulah-karrolla/"],
   ["David Palzer","CSE","","","https://www.linkedin.com/in/david-palzer-04397662/",""],
   ["Vishal Sunder","CSE","","","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""]    
 ]
@@ -61,10 +60,12 @@ var msbsstudents=[
   ["Meghan Day", "CSE MS May '17", "", "Google", "https://www.linkedin.com/in/meghan-day/", ""],
   ["Akshay Deshpande", "CSE MS August '13", "", "Soothsayer Analytics", "https://www.linkedin.com/in/akshaydesh", ""],
   ["Smrite Dua", "CSE MS May '15", "", "Cisco", "https://www.linkedin.com/in/smrite-dua", ""],
+  ["Beulah Karrolla","CSE May '24","","Amazon","https://www.linkedin.com/in/beulah-karrolla/"],
   ["Jialin Li","CSE MS May '21","(completing Geography Ph.D., Advisor: Ningchuan Xiao)","","https://www.linkedin.com/in/jialin-li-908058181/",""],
   ["Jacob Mainzer", "CSE MS December '11", "", "", "https://www.linkedin.com/in/jacob-mainzer-4057a940", ""],
   ["Prateeti Mohapatra", "CSE, MS March '09", "", "IBM Research Lab", "http://www.linkedin.com/pub/prateeti-mohapatra/1a/b80/29", ""],
-  ["Monica Rajamanohar", "ECE, MS August 05", "", "Heiler Software", "http://www.linkedin.com/pub/monica-rajamanohar/6/a0/95b", ""],
+  ["Monica Rajamanohar", "ECE, MS August '05", "", "Heiler Software", "http://www.linkedin.com/pub/monica-rajamanohar/6/a0/95b", ""],
+  ["Tony Ramierez","CSE, MS May '24","","","https://www.linkedin.com/in/tony-p-ramirez/",""],
   ["Louis (Yuanlong) Shao", "CSE, MS May '14", "", "Two Sigma", "https://www.linkedin.com/in/louis-yuanlong-shao-35179b15/",""],
   ["Darla Shockley", "CSE, MS March '10", "", "Dataquest.io", "https://www.linkedin.com/in/darlashockley", ""],
   ["Ritu Singh", "CSE, MS August '12", "", "J. P. Morgan Chase",  "https://www.linkedin.com/in/singh27"],
@@ -158,6 +159,7 @@ var confmap={
   "DARPA Broadcast News Workshop": ["WK","DARPA"],
   "Empirical Methods in Natural Language Processing": ["CF","EMNLP"],
   "Empirical Methods in Natural Language Processing (System Demonstrations)": ["CF","EMNLP"],
+  "Findings of EMNLP": ["CF","EMNLP Findings"],
   "Extra-Propositional Aspects of Meaning (ExProM) in Computational Linguistics Workshop": ["WK","ExProM"],
   "European Conference on Speech Communication and Technology": ["CF","Eurospeech"],
   "International Conference on Spoken Language Processing": ["CF","ICSLP"],

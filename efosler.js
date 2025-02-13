@@ -37,6 +37,7 @@ var phdstudents=[
   ["Anton Rytting","Linguistics, December '06","Co-advised with Chris Brew","Associate Research Scientist, Applied Research Lab for Intelligence &amp; Security, U. Maryland","https://www.arlis.umd.edu/about-arlis/our-people/c-anton-rytting-phd","https://scholar.google.com/citations?hl=en&user=iBiZjx0AAAAJ"],
   ["Prashant Serai","CSE, May '20","","Senior Research Scientist, Meta","https://www.linkedin.com/in/prashant-serai-28391618/","https://scholar.google.com/citations?user=ORJJGWoAAAAJ&hl=en&oi=ao"],
   ["Chaitanya Shivade","CSE, May '16","Co-advised with Albert Lai","Senior Applied Scientist, Amazon","https://www.linkedin.com/in/cshivade/","https://scholar.google.com/citations?user=7H0YYPIAAAAJ&hl=en&oi=ao"],
+  ["Vishal Sunder","CSE, Feb '25","","IBM","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""],    
   ["Adam Stiff","CSE, May '20","","NLP Scientist (Dialogue), Infoscitex Corporation","https://www.linkedin.com/in/adam-stiff-6a134646/",""],
   ["Tim Weale","CSE, August '10","Co-advised with Chris Brew","Technical Manager, Department of Defense","https://www.linkedin.com/in/timothyweale/",""],
   ["Sirui Xu","CSE, August '18","","Senior Research Scientist II, PAII Research Lab","https://www.linkedin.com/in/sirui-xu-91a02622/",""]
@@ -46,8 +47,9 @@ var currentstudents=[
   ["Erika Goetz","CSE","","","https://www.linkedin.com/in/erikagoetz/",""],
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/",""],
   ["Jaylen Jones","CSE","Co-advised with Huan Sun","","https://www.linkedin.com/in/jaylen--jones/"],
-  ["David Palzer","CSE","","","https://www.linkedin.com/in/david-palzer-04397662/",""],
-  ["Vishal Sunder","CSE","","","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""]    
+  ["Kevin Krahn","CSE","","",""],
+  ["Hansol Lee","CSE","","","https://www.linkedin.com/in/sol5004/"],
+  ["David Palzer","CSE","","","https://www.linkedin.com/in/david-palzer-04397662/",""]
 ]
 
 var postdocs=[

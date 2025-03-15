@@ -179,6 +179,7 @@ var confmap={
   "Interspeech": ["CF","Interspeech"],
   "Interspeech (Demo Session)": ["CF","Interspeech"],
   "Interspeech (Show and Tell Session)": ["CF","Interspeech"],
+  "Annual Conference of the International Speech Communication Association": ["CF","Interspeech"],
   "ESCA Tutorial and Research Workshop on Modeling Pronunciation Variation for Automatic Speech Recognition": ["WK","ITRW"],
   "NAACL HLT Workshop on Predicting and Improving Text Readability for Target Reader Populations": ["WK","TextReadability"],
   "North American Association for Computational Linguistics": ["CF","NAACL-HLT"],

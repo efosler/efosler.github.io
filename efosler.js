@@ -246,7 +246,7 @@ var updatebib=function(bibentry) {
   }
   else if ($(bibentry).find('.title').html()==='Dynamic pronunciation models for automatic speech recognition') {
     $(bibentry).find('.venue').html('Dissertation')
-  } else if ($(bibentry).find('.note') && $(bibentry).find('.note').html().startsWith("US Patent")) {
+  } else if ($(bibentry).find('.note').html()!='' && $(bibentry).find('.note').html().startsWith("US Patent")) {
     $(bibentry).find('.venue').html('Patent')
   } else if ($(bibentry).find('.institution').html()!='') {
     $(bibentry).find('.venue').html('Other')

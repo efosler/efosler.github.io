@@ -249,7 +249,7 @@ var updatebib=function(bibentry) {
   } else if ($(bibentry).find('.note').html().startsWith("US Patent")) {
     $(bibentry).find(.'venue').html('Patent')
   } else if ($(bibentry).find('.institution').html()!='') {
-    $(bibentry).find('.venue').html('TechReport')
+    $(bibentry).find('.venue').html('Other')
   }
 }
 

@@ -31,6 +31,7 @@ var phdstudents=[
   ["Yi Ma","CSE, August '15","","Software Engineer, Apple","https://www.linkedin.com/in/apmhbnms/","https://scholar.google.com/citations?hl=en&user=OFl1NkcAAAAJ"],
   ["Jeremy Morris","CSE, June '10","","Assistant Professor of Practice, Ohio State","http://www.cse.ohio-state.edu/~morrijer",""],
   ["Denis Newman-Griffis","CSE, May '20","","Senior Lecturer and Theme Lead in AI for Health (Associate Professor), University of Sheffield","https://www.linkedin.com/in/drgriffis/","https://scholar.google.com/citations?hl=en&user=Ymkp0TYAAAAJ"],
+  ["David Palzer","CSE, August '25","","","https://www.linkedin.com/in/david-palzer-04397662/",""],
   ["Peter Plantinga","CSE May '21","","Postdoctoral Researcher with McGill, Concordia, and Mila", "https://www.linkedin.com/in/plantinga-peter/","https://scholar.google.com/citations?user=aBK72zwAAAAJ&hl=en&oi=ao"],
   ["Rohit Prabhavalkar","CSE, August '13","","Senior Staff Research Scientist, Google","https://www.linkedin.com/in/rohitprabhavalkar/","https://scholar.google.com/citations?hl=en&user=JgltxisAAAAJ"],
   ["Preethi Raghavan","CSE, April '14","Co-advised with Albert Lai","Vice President, NLP and Machine Learning, Fidelity Investments","https://www.linkedin.com/in/preethi-raghavan-26669a2","https://scholar.google.com/citations?hl=en&user=oPolPeMAAAAJ"],
@@ -48,8 +49,7 @@ var currentstudents=[
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/",""],
   ["Jaylen Jones","CSE","Co-advised with Huan Sun","","https://www.linkedin.com/in/jaylen--jones/"],
   ["Kevin Krahn","CSE","","",""],
-  ["Hansol Lee","CSE","","","https://www.linkedin.com/in/sol5004/"],
-  ["David Palzer","CSE","","","https://www.linkedin.com/in/david-palzer-04397662/",""]
+  ["Hansol Lee","CSE","","","https://www.linkedin.com/in/sol5004/"]
 ]
 
 var postdocs=[

@@ -31,6 +31,7 @@ var phdstudents=[
   ["Yi Ma","CSE, August '15","","Software Engineer, Apple","https://www.linkedin.com/in/apmhbnms/","https://scholar.google.com/citations?hl=en&user=OFl1NkcAAAAJ"],
   ["Jeremy Morris","CSE, June '10","","Assistant Professor of Practice, Ohio State","http://www.cse.ohio-state.edu/~morrijer",""],
   ["Denis Newman-Griffis","CSE, May '20","","Senior Lecturer and Theme Lead in AI for Health (Associate Professor), University of Sheffield","https://www.linkedin.com/in/drgriffis/","https://scholar.google.com/citations?hl=en&user=Ymkp0TYAAAAJ"],
+  ["David Palzer","CSE, August '25","","","https://www.linkedin.com/in/david-palzer-04397662/",""],
   ["Peter Plantinga","CSE May '21","","Postdoctoral Researcher with McGill, Concordia, and Mila", "https://www.linkedin.com/in/plantinga-peter/","https://scholar.google.com/citations?user=aBK72zwAAAAJ&hl=en&oi=ao"],
   ["Rohit Prabhavalkar","CSE, August '13","","Senior Staff Research Scientist, Google","https://www.linkedin.com/in/rohitprabhavalkar/","https://scholar.google.com/citations?hl=en&user=JgltxisAAAAJ"],
   ["Preethi Raghavan","CSE, April '14","Co-advised with Albert Lai","Vice President, NLP and Machine Learning, Fidelity Investments","https://www.linkedin.com/in/preethi-raghavan-26669a2","https://scholar.google.com/citations?hl=en&user=oPolPeMAAAAJ"],
@@ -48,8 +49,7 @@ var currentstudents=[
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/",""],
   ["Jaylen Jones","CSE","Co-advised with Huan Sun","","https://www.linkedin.com/in/jaylen--jones/"],
   ["Kevin Krahn","CSE","","",""],
-  ["Hansol Lee","CSE","","","https://www.linkedin.com/in/sol5004/"],
-  ["David Palzer","CSE","","","https://www.linkedin.com/in/david-palzer-04397662/",""]
+  ["Hansol Lee","CSE","","","https://www.linkedin.com/in/sol5004/"]
 ]
 
 var postdocs=[
@@ -156,6 +156,7 @@ var confmap={
   "AMIA Annual Symposium": ["CF","AMIA"],
   "AMIA Joint Summits on Translational Science": ["CF","AMIA-TS"],
   "Association for Computational Linguistics": ["CF","ACL"],
+  "AI Magazine": ["JR","AI Magazine"],
   "Chicago Linguistic Society": ["CF","CLS"],
   "Conversational Speech Recognition Workshop: DARPA Hub~5E Evaluation": ["WK","DARPA"],
   "DARPA Broadcast News Workshop": ["WK","DARPA"],
@@ -171,16 +172,19 @@ var confmap={
   "International Conference on Acoustics, Speech, and Signal Processing": ["CF","ICASSP"],
   "International Conference on Acoustics, Speech and Signal Processing": ["CF","ICASSP"],
   "International Conference on Acoustics, Speech and Signal Processing (ICASSP)": ["CF","ICASSP"],
+  "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)": ["CF","ICASSP"],
   "International Conference on Computational Linguistics": ["CF","COLING"],
   "International Congress of Phonetic Sciences": ["CF","ICPHS"],
   "International Speech Communication Association (ICSA) Tutorial and Research Workshop on Speech Recognition and Intrinsic Variation": ["WK","ITRW"],
   "Interspeech": ["CF","Interspeech"],
   "Interspeech (Demo Session)": ["CF","Interspeech"],
   "Interspeech (Show and Tell Session)": ["CF","Interspeech"],
+  "Annual Conference of the International Speech Communication Association": ["CF","Interspeech"],
   "ESCA Tutorial and Research Workshop on Modeling Pronunciation Variation for Automatic Speech Recognition": ["WK","ITRW"],
   "NAACL HLT Workshop on Predicting and Improving Text Readability for Target Reader Populations": ["WK","TextReadability"],
   "North American Association for Computational Linguistics": ["CF","NAACL-HLT"],
   "North American Association for Computational Linguistics - Human Language Technology Conference": ["CF","NAACL-HLT"],
+  "Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies": ["CF","NAACL-HLT"],
   "Workshop on Evaluating Vector Space Representations for NLP": ["WK","RepEval"],
   "International Conference on Language Resources and Evaluation": ["CF","LREC"],
   "International Workshop on Health Text Mining and Information Analysis": ["WK","LOUHI"],
@@ -194,6 +198,7 @@ var confmap={
   "IEEE Automatic Speech Recognition and Understanding Workshop": ["WK","ASRU"],
   "IEEE Workshop on Spoken Language Technology": ["WK","SLT"],
   "IEEE Workshop on Spoken Language Technology": ["WK","SLT"],
+  "IEEE Spoken Language Technology Workshop (SLT)": ["WK","SLT"],
   "Workshop on Vector Space Modeling for NLP": ["WK","LatentVar"],
   "Annual Conference of the Association for the Advancement of Artificial Intelligence (AAAI)": ["CF","AAAI"],
   "Workshop on Speech Production in Automatic Speech Recognition": ["WK","SPASR"],
@@ -242,8 +247,10 @@ var updatebib=function(bibentry) {
   }
   else if ($(bibentry).find('.title').html()==='Dynamic pronunciation models for automatic speech recognition') {
     $(bibentry).find('.venue').html('Dissertation')
+  } else if (typeof $(bibentry).find('.note').html() !=='undefined' && $(bibentry).find('.note').html().startsWith("US Patent")) {
+    $(bibentry).find('.venue').html('Patent')
   } else if ($(bibentry).find('.institution').html()!='') {
-    $(bibentry).find('.venue').html('TechReport')
+    $(bibentry).find('.venue').html('Other')
   }
 }
 

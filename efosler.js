@@ -136,11 +136,12 @@ var funstuff=[
   ['Published musicologist! (Not really)',"","",
     '<p>As a result of the above work, Danielle and I wrote a blog article for Musicology Now.</p>',
     'http://www.musicologynow.org/2015/06/rethinking-historical-data-foray-into.html',''],
-  ["Music on the Move Maps","","",
+  ['Magpie Consort',"","",'<p>I sing with the <a href="https://magpieconsort.org">Magpie Consort</a>','']
+    ["Music on the Move Maps","","",
     "<p>The cool thing about having an awesome spouse who writes books about music and globalization is that you keep getting chances to play with maps.  I was glad that she asked me to work on the maps for <i>Music on the Move</i>, an open access book available (soon) at the University of Michigan Press.  I've open sourced the maps (which themselves built on various sources).</p>"+
     '<img src="img/motmmaps.jpg"></img>',
     "http://musiconthemove.org","https://github.com/efosler/MusicOnTheMove"],
-  ["Scouting","","","<p>I volunteer with the Boy Scouts of America. And I like coffee.</p><img src='img/coffee.jpg'></img>",'',''],
+  ["Scouting","","","<p>I volunteer with Scounting America. And I like coffee.</p><img src='img/coffee.jpg'></img>",'',''],
   ["Cooking","","",'<p>I like to cook.</p><img src="img/peppers.png"></img><img src="img/frenchtoast.jpg"></img><img src="img/pie.jpg"></img>','','']
 ]
 

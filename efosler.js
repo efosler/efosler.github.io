@@ -47,7 +47,7 @@ var phdstudents=[
 var currentstudents=[
   ["Erika Goetz","CSE","","","https://www.linkedin.com/in/erikagoetz/",""],
   ["Amad Hussain","CSE","","","https://www.linkedin.com/in/syed-amad-hussain-b94008b7/","https://scholar.google.com/citations?user=FaisAH0AAAAJ&hl=en&oi=ao"],
-  ["Daniel Jackson","CSE","","","https://www.linkedin.com/in/daniel-i-jackson/","https://scholar.google.com/citations?hl=en&user=pZ4_F5wAAAAJ"]
+  ["Daniel Jackson","CSE","","","https://www.linkedin.com/in/daniel-i-jackson/","https://scholar.google.com/citations?hl=en&user=pZ4_F5wAAAAJ"],
   ["Jaylen Jones","CSE","Co-advised with Huan Sun","","https://www.linkedin.com/in/jaylen--jones/","https://scholar.google.com/citations?hl=en&user=3kKCObUAAAAJ"],
   ["Kevin Krahn","CSE","","","",""],
   ["Hansol Lee","CSE","","","https://www.linkedin.com/in/sol5004/"],

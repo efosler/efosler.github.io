@@ -32,14 +32,14 @@ var phdstudents=[
   ["Yi Ma","CSE, August '15","","Software Engineer, Apple","https://www.linkedin.com/in/apmhbnms/","https://scholar.google.com/citations?hl=en&user=OFl1NkcAAAAJ"],
   ["Jeremy Morris","CSE, June '10","","Associate Professor of Practice, Ohio State","http://www.cse.ohio-state.edu/~morrijer",""],
   ["Denis Newman-Griffis","CSE, May '20","","Senior Lecturer and Theme Lead in AI for Health (Associate Professor), University of Sheffield","https://www.linkedin.com/in/drgriffis/","https://scholar.google.com/citations?hl=en&user=Ymkp0TYAAAAJ"],
-  ["David Palzer","CSE, August '25","","Speech Scientist, Rev","https://www.linkedin.com/in/david-palzer-04397662/",""],
+  ["David Palzer","CSE, August '25","","Speech Scientist, Rev","https://www.linkedin.com/in/david-palzer-04397662/","https://scholar.google.com/citations?hl=en&user=6yTAERQAAAAJ"],
   ["Peter Plantinga","CSE May '21","","Postdoctoral Researcher with McGill, Concordia, and Mila", "https://www.linkedin.com/in/plantinga-peter/","https://scholar.google.com/citations?user=aBK72zwAAAAJ&hl=en&oi=ao"],
   ["Rohit Prabhavalkar","CSE, August '13","","Senior Staff Research Scientist, Google DeepMind","https://www.linkedin.com/in/rohitprabhavalkar/","https://scholar.google.com/citations?hl=en&user=JgltxisAAAAJ"],
   ["Preethi Raghavan","CSE, April '14","Co-advised with Albert Lai","Vice President, AI, Fidelity Investments","https://www.linkedin.com/in/preethi-raghavan-26669a2","https://scholar.google.com/citations?hl=en&user=oPolPeMAAAAJ"],
   ["Anton Rytting","Linguistics, December '06","Co-advised with Chris Brew","Associate Research Scientist, Applied Research Lab for Intelligence &amp; Security, U. Maryland","https://www.cs.umd.edu/people/crytting","https://scholar.google.com/citations?hl=en&user=iBiZjx0AAAAJ"],
   ["Prashant Serai","CSE, May '20","","Staff Research Scientist, Sanas","https://www.linkedin.com/in/prashant-serai-28391618/","https://scholar.google.com/citations?user=ORJJGWoAAAAJ&hl=en&oi=ao"],
   ["Chaitanya Shivade","CSE, May '16","Co-advised with Albert Lai","Senior Applied Scientist, Amazon","https://www.linkedin.com/in/cshivade/","https://scholar.google.com/citations?user=7H0YYPIAAAAJ&hl=en&oi=ao"],
-  ["Vishal Sunder","CSE, Feb '25","","Research Scientist, IBM","https://www.linkedin.com/in/vishal-sunder-11a2a4193/",""],    
+  ["Vishal Sunder","CSE, Feb '25","","Research Scientist, IBM","https://www.linkedin.com/in/vishal-sunder-11a2a4193/","https://scholar.google.com/citations?hl=en&user=7Gre5tsAAAAJ"],    
   ["Adam Stiff","CSE, May '20","","Principal Scientist, Cognitive Systems Engineering, DCS Corp","https://www.linkedin.com/in/adam-stiff-6a134646/",""],
   ["Tim Weale","CSE, August '10","Co-advised with Chris Brew","Technical Manager, Department of Defense","https://www.linkedin.com/in/timothyweale/",""],
   ["Sirui Xu","CSE, August '18","","Senior Research Scientist II, PAII Research Lab","https://www.linkedin.com/in/sirui-xu-91a02622/",""],
@@ -56,28 +56,28 @@ var currentstudents=[
 ]
 
 var postdocs=[
-  ["Andrew Plummer","CSE/Linguistics","","Data Scientist, Northrup Grumman","https://www.linkedin.com/in/arplummer/","https://scholar.google.com/citations?hl=en&user=yzfZw-sAAAAJ&view_op=list_works"]
+  ["Andrew Plummer","CSE/Linguistics","","Senior Vice President, Cybersecurity and Technology Controls, JP Morgan Chase","https://www.linkedin.com/in/arplummer/","https://scholar.google.com/citations?hl=en&user=yzfZw-sAAAAJ&view_op=list_works"]
 ]
 
 var msbsstudents=[
-  ["Pulkit Arya","CSE MS May '23","Co-advised with Mike White","JPMorgan Chase","https://www.linkedin.com/in/pulkit-arya-037/"],
-  ["Adriane Boyd", "CSE MS June '08", "(completed Linguistics Ph.D. December '11 on a different topic)","","http://www.sfs.uni-tuebingen.de/~adriane/", ""],
+  ["Pulkit Arya","CSE MS May '23","Co-advised with Mike White","Endeavor","https://www.linkedin.com/in/pulkit-arya-037/"],
+  ["Adriane Boyd", "CSE MS June '08", "(completed Linguistics Ph.D. December '11 on a different topic)","bettermarks GmbH","http://www.sfs.uni-tuebingen.de/~adriane/", ""],
   ["Meghan Day", "CSE MS May '17", "", "Google", "https://www.linkedin.com/in/meghan-day/", ""],
   ["Akshay Deshpande", "CSE MS August '13", "", "Soothsayer Analytics", "https://www.linkedin.com/in/akshaydesh", ""],
   ["Smriti Dua", "CSE MS May '15", "", "Cisco", "https://www.linkedin.com/in/smrite-dua", ""],
-  ["Beulah Karrolla","CSE May '24","","Amazon","https://www.linkedin.com/in/beulah-karrolla/"],
+  ["Beulah Karrolla","CSE May '24","","AWS","https://www.linkedin.com/in/beulah-karrolla/"],
   ["Jialin Li","CSE MS May '21","(completed Geography Ph.D., Advisor: Ningchuan Xiao)","Epsilon","https://www.linkedin.com/in/jialin-li-908058181/",""],
   ["Jacob Mainzer", "CSE MS December '11", "", "", "https://www.linkedin.com/in/jacob-mainzer-4057a940", ""],
   ["Prateeti Mohapatra", "CSE, MS March '09", "", "IBM Research Lab", "http://www.linkedin.com/pub/prateeti-mohapatra/1a/b80/29", ""],
   ["Monica Rajamanohar", "ECE, MS August '05", "", "Heiler Software", "http://www.linkedin.com/pub/monica-rajamanohar/6/a0/95b", ""],
   ["Tony Ramierez","CSE, MS May '24","","","https://www.linkedin.com/in/tony-p-ramirez/",""],
   ["Louis (Yuanlong) Shao", "CSE, MS May '14", "", "Two Sigma", "https://www.linkedin.com/in/louis-yuanlong-shao-35179b15/",""],
-  ["Darla Shockley", "CSE, MS March '10", "", "Fly.io", "https://www.linkedin.com/in/darlashockley", ""],
+  ["Darla Shockley", "CSE, MS March '10", "", "Merritt AI", "https://www.linkedin.com/in/darlashockley", ""],
   ["Ritu Singh", "CSE, MS August '12", "", "JPMorgan Chase",  "https://www.linkedin.com/in/singh27"],
-  ["Qi Song", "CSE, MS May '20", "", "Ph.D. Student, Instutue of Software, Chinese Academy of Science", "https://www.linkedin.com/in/qi-song-8197421a1/", ""],
+  ["Qi Song", "CSE, MS May '20", "", "Ph.D. Student, Institutue of Software, Chinese Academy of Science", "https://www.linkedin.com/in/qi-song-8197421a1/", ""],
   ["Bharat Suri","CSE","MS May '21","","Salesforce","https://www.linkedin.com/in/bsuri/",""],
   ["Yu Wang", "CSE, MS March '07", "", "" ,"" , ""],
-  ["Lavanya Venkatasubramaniam","CSE","MS December '22","","Microsoft","https://www.linkedin.com/in/lavanya-vvs/"], 
+  ["Lavanya Venkatasubramaniam","CSE","MS December '22","","","https://www.linkedin.com/in/lavanya-vvs/"], 
   ["Annatala Wolf",  "CSE BS honors '06", "", "Ohio State CSE Lecturer", "http://www.cse.ohio-state.edu/~wolfann", ""]
 ]
 
